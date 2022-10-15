@@ -18,7 +18,7 @@
     "@types/d3": "^7.1.0",
     "@types/grecaptcha": "^3.0.1",
     "@types/is-hotkey": "^0.1.1",
-    "@types/jasmine": "^3.3.13",
+    "@types/jasmine": "^3.10.6",
     "@types/jquery": "^3.3.0",
     "@types/jquery.fileupload": "^9.22.1",
     "@types/jquery.scrollto": "^1.4.29",
