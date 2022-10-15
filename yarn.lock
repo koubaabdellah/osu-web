@@ -509,11 +509,6 @@
     "@types/d3-transition" "*"
     "@types/d3-zoom" "*"
 
-"@types/esrever@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@types/esrever/-/esrever-0.2.0.tgz#96404a2284b2c7527f08a1e957f8a31705f9880f"
-  integrity sha512-5NI6TeGzVEy/iBcuYtcPzzIC6EqlfQ2+UZ54vT0ulq8bPNGAy8UJD+XcsAyEOcnYFUjOVWuUV+k4/rVkxt9/XQ==
-
 "@types/geojson@*":
   version "7946.0.7"
   resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.7.tgz#c8fa532b60a0042219cdf173ca21a975ef0666ad"
@@ -3384,11 +3379,6 @@ esrecurse@^4.1.0, esrecurse@^4.3.0:
   dependencies:
     estraverse "^5.2.0"
 
-esrever@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/esrever/-/esrever-0.2.0.tgz#96e9d28f4f1b1a76784cd5d490eaae010e7407b8"
-  integrity sha1-lunSj08bGnZ4TNXUkOquAQ50B7g=
-
 estraverse@^4.1.1:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
@@ -4336,6 +4326,11 @@ immer@^5.0.0:
   resolved "https://registry.yarnpkg.com/immer/-/immer-5.3.6.tgz#51eab8cbbeb13075fe2244250f221598818cac04"
   integrity sha512-pqWQ6ozVfNOUDjrLfm4Pt7q4Q12cGw2HUZgry4Q5+Myxu9nmHRkWBpI0J4+MK0AxbdFtdMTwEGVl7Vd+vEiK+A==
 
+immer@^9.0.6:
+  version "9.0.15"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.15.tgz#0b9169e5b1d22137aba7d43f8a81a495dd1b62dc"
+  integrity sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==
+
 import-cwd@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/import-cwd/-/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
@@ -4764,6 +4759,11 @@ is-plain-object@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-3.0.1.tgz#662d92d24c0aa4302407b0d45d21f2251c85f85b"
   integrity sha512-Xnpx182SBMrr/aBik8y+GuR4U1L9FqMSojwDQwPMmxyC6bvEqly9UBCxhauBF5vNh2gwWJNX6oDV7O+OM4z34g==
+
+is-plain-object@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-5.0.0.tgz#4427f50ab3429e9025ea7d52e9043a9ef4159344"
+  integrity sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==
 
 is-regex@^1.1.4:
   version "1.1.4"
@@ -7655,15 +7655,13 @@ slate-react@^0.58.4:
     lodash "^4.17.4"
     scroll-into-view-if-needed "^2.2.20"
 
-slate@^0.58.4:
-  version "0.58.4"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.58.4.tgz#4259387e632b45b00cf88bcecf5570d7d16ddd8b"
-  integrity sha512-XxKwNJgCMf7S2sDT8CVJy0zYm95MiYorJo9Hah05zKjItrw0VVeCc2BGKDZSlNGcaIfM3xcfFUN7XE+c8ehAbA==
+slate@^0.82.1:
+  version "0.82.1"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.82.1.tgz#cf43cb828c980734dab01c9bbb517fd4d20892f7"
+  integrity sha512-3mdRdq7U3jSEoyFrGvbeb28hgrvrr4NdFCtJX+IjaNvSFozY0VZd/CGHF0zf/JDx7aEov864xd5uj0HQxxEWTQ==
   dependencies:
-    "@types/esrever" "^0.2.0"
-    esrever "^0.2.0"
-    immer "^5.0.0"
-    is-plain-object "^3.0.0"
+    immer "^9.0.6"
+    is-plain-object "^5.0.0"
     tiny-warning "^1.0.3"
 
 slice-ansi@^4.0.0:
