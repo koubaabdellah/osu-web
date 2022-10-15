@@ -76,7 +76,7 @@
     "react-transition-group": "^4.4.2",
     "remark-parse": "^7.0.1",
     "shopify-buy": "^2.6.1",
-    "slate": "^0.58.4",
+    "slate": "^0.82.1",
     "slate-history": "^0.58.4",
     "slate-react": "^0.58.4",
     "terser": "^4.8.1",
