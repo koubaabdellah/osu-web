@@ -78,7 +78,7 @@
     "shopify-buy": "^2.6.1",
     "slate": "^0.58.4",
     "slate-history": "^0.58.4",
-    "slate-react": "^0.58.4",
+    "slate-react": "^0.83.0",
     "terser": "^4.8.1",
     "terser-webpack-plugin": "^1.4.1",
     "timeago": "^1.5.0",
