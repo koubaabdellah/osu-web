@@ -31,7 +31,7 @@
     "@types/timeago": "^1.6.0",
     "autoprefixer": "^9.8.6",
     "blueimp-file-upload": "^9.11.2",
-    "bootstrap": "^3.3.6",
+    "bootstrap": "^4.0.0",
     "chokidar": "^3.5.2",
     "clean-webpack-plugin": "^3.0.0",
     "clipboard-polyfill": "^2.3.0",
